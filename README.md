@@ -26,5 +26,4 @@ There were several menu items with missing information on Sugar, our target vari
 
 Below are the top 10 restaurants with the most menu items represented in our data set:
 
-![top10_restaurants][top10_restaurants]
-[top10_restaurants]: "C:\Users\normc\Documents\Flatiron\restaurant_prediction\top10_restaurants.png"
+![top10_restaurants][top10_restaurants.png]
