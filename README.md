@@ -2,8 +2,7 @@
 
 ### **Business Problem**
 
-![reading_menu][menu]
-[menu]: reading_menu.png
+![reading_menu](reading_menu.png)
 
 Have you ever been on a diet and been invited out to dinner or wanted take-out?  It can be frustrating to lose track of nutritional intake when eating at a restaurant and you stand the risk of unwittingly ordering something that is unhealthy or outside of your diet's restrictions.
 
@@ -11,8 +10,7 @@ Some menus will provide calorie counts, but that is only helpful for weight gain
 
 ### **Project Outline and Goal
 
-![model_example][model_example]
-[model_example]: model_example.png
+![model_example](model_example.png)
 
 My project builds a supervised machine learning model that can predict the sugar content of a menu item.  This model will be able to read the text-based information printed on a menu and make a prediction that can allow you to make an informed decision.
 
