@@ -2,7 +2,7 @@
 
 ### **Business Problem**
 
-![reading_menu](reading_menu.png)
+![reading_menu](Images/reading_menu.png)
 
 Have you ever been on a diet and been invited out to dinner or wanted take-out?  It can be frustrating to lose track of nutritional intake when eating at a restaurant and you stand the risk of unwittingly ordering something that is unhealthy or outside of your diet's restrictions.
 
@@ -10,7 +10,7 @@ Some menus will provide calorie counts, but that is only helpful for weight gain
 
 ### **Project Outline and Goal
 
-![model_example](model_example.png)
+![model_example](Images/model_example.png)
 
 My project builds a supervised machine learning model that can predict the sugar content of a menu item.  This model will be able to read the text-based information printed on a menu and make a prediction that can allow you to make an informed decision.
 
@@ -22,6 +22,8 @@ The menus contained within my data are large chains with one or more franchises 
 
 There were several menu items with missing information on Sugar, our target variable.  I felt it was best not to impute the data, as it could give skewed information for model training that could affect accuracy later on.  After removing those items, there remained 52,931 menu items to begin our project.
 
-Below are the top 10 restaurants with the most menu items represented in our data set:
+Below are the top 15 restaurants with the most menu items represented in our data set:
 
-![top10_restaurants](top10_restaurants.png)
+![top15_restaurants_list](Images/top_15_restaurants_list.png)
+
+![top15_restaurants_graph](Images/top_15_restaurants_graph.png)

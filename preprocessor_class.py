@@ -22,4 +22,5 @@ class Preprocessor(BaseEstimator, TransformerMixin):
         lower_doc = [token.lower() for token in word_tokenize(doc) if token.isalpha()]
         filtered_doc = [token for token in lower_doc if token not in stop_words]
         stemmed_doc = [stemmer.stem(token) for token in filtered_doc]
-        return " ".join(stemmed_doc)
+        tokenized_doc = " ".join(set(stemmed_doc))
+        return tokenized_doc
